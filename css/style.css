@@ -1,0 +1,25 @@
+.nanumPenScript {
+    font-family: 'Nanum Pen Script';
+}
+
+.customBrown {
+    color:  #CB925D;
+}
+
+.customYellow {
+    color: #F3C049;
+}
+
+.customGreen {
+    color: #AACA69;
+}
+
+.headerBackground {
+    background-image: image('homeBackground.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
