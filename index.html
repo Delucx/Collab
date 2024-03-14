@@ -1,88 +1,99 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Mangroove</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nanum+Pen+Script&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <div class="container-fluid nanumPenScript">
-      <nav>
-        <ul
-          class="nav nav-tabs display-6 flex-fil align-items-center justify-content-around"
-        >
-          <li class="active">
-            <a
-              class="text-decoration-none customBrown"
-              data-toggle="tab"
-              href="#home"
-              >home</a
-            >
-          </li>
-          <li>
-            <a
-              class="text-decoration-none customBrown"
-              data-toggle="tab"
-              href="#menu1"
-              >about</a
-            >
-          </li>
-          <li class="m-3">
-            <a
-              class="text-decoration-none customBrown"
-              data-toggle="tab"
-              href="#menu2"
-              ><img src="assets\shopName.svg"
-            /></a>
-          </li>
-          <li>
-            <a
-              class="text-decoration-none customBrown"
-              data-toggle="tab"
-              href="#menu3"
-              >shop</a
-            >
-          </li>
-          <li>
-            <a
-              class="text-decoration-none customBrown"
-              data-toggle="tab"
-              href="#menu4"
-              >contact</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </div>
 
-    <div class="headerBackground">
-      <div class="d-flex container position-relative headerBackground">
-        <div class="">
-          <em>Where Every Bite is a Mango Paradise!</em>
-          <p>
-            Discover dessert perfection at Mangroove! Indulge in artisanal
-            gelatos, irresistible pastries, and heavenly cakes crafted with
-            passion and precision. Welcome to a whimsical world of sweet
-            fantasies!
-          </p>
-          <button>Visit Shop</button>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Mangroove</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nanum+Pen+Script&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Modak&family=Nanum+Pen+Script&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="container-fluid nanumPenScript">
+    <nav>
+      <ul class="nav nav-tabs display-6 align-items-center justify-content-around">
+        <li class="active">
+          <a class="text-decoration-none customBrown" data-toggle="tab" href="#home">home</a>
+        </li>
+        <li>
+          <a class="text-decoration-none customBrown" data-toggle="tab" href="#menu1">about</a>
+        </li>
+        <li class="m-3">
+          <a class="text-decoration-none customBrown" data-toggle="tab" href="#menu2"><img
+              src="assets\shopName.svg" /></a>
+        </li>
+        <li>
+          <a class="text-decoration-none customBrown" data-toggle="tab" href="#menu3">shop</a>
+        </li>
+        <li>
+          <a class="text-decoration-none customBrown" data-toggle="tab" href="#menu4">contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="container-fluid headerBackground">
+    <div class="row align-items-center">
+      <div class="col customMargin1">
+        <p class="caption nanumPenScript">Where Every Bite is a</p>
+        <p class="nanumPenScript quote">Mango Paradise!</p>
+        <p class="nanumPenScript homeParagraph">
+          Discover dessert perfection at Mangroove! Indulge in artisanal
+          gelatos, irresistible pastries, and heavenly cakes crafted with
+          passion and precision. Welcome to a whimsical world of sweet
+          fantasies!
+        </p>
+        <button class="nanumPenScript homeButton mt-3">Visit Shop</button>
+      </div>
+      <div class="col d-flex justify-content-center m-5">
+        <img class="w-50" src="assets\shopLogo.svg" />
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid surveyBackground">
+    <div class="row d-flex align-items-center">
+      <div class="col customMargin2">
+        <div class="row">
+          <div>
+            <p class="modak monthlyMango1">Monthly</p>
+          </div>
+          <div>
+            <p class="modak monthlyMango2">Mango<img src="assets\oneMango.svg"></p>
+          </div>
+          <div>
+            <p class=" nanumPenScript surveyP">*Based from our February 2024 Survey</p>
+          </div>
         </div>
-        <div class="d-flex align-items-center">
-          <img src="assets\shopLogo.svg" />
+      </div>
+      <div class="col customMargin3">
+        <div class="row p-5">
+          <div>
+            <img src="assets\star.svg" />
+          </div>
+          <div class="d-flex justify-content-evenly">
+            <img class=" w-100" src="assets\foodPic1.svg" />
+            <img class=" w-100" src="assets\foodPic2.svg" />
+          </div>
+          <div class=" col d-flex justify-content-end">
+            <img src="assets\star.svg" />
+          </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <script src="js/bootstrap.min.js" async defer></script>
-    <script src="js/jquery.min.js" async defer></script>
-  </body>
+  <script src="js/bootstrap.min.js" async defer></script>
+  <script src="js/jquery.min.js" async defer></script>
+</body>
+
 </html>
