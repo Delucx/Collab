@@ -12,6 +12,10 @@ body {
     font-family: 'Modak';
 }
 
+.noteWorthy {
+    font-family: 'Noteworthy';
+}
+
 .customBrown {
     color:  #CB925D;
 }
@@ -93,12 +97,13 @@ body {
 .monthlyMango2 {
     color: #F3C049;
     font-size: 120px;
+    line-height: 150px;
 }
 
 .surveyP {
     font-size: 18px;
     color: #000000;
-    line-height: 18px;
+    line-height: 0;
 }
 
 .surveyBackground {
@@ -106,5 +111,32 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    margin-bottom: 6em;
+}
+
+.footerBackground {
+    background-color: #CB925D;
+    width: 100%; 
+}
+
+.navBottom {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: 'Noteworthy';
+    src: local('font\Noteworthy-Lt.woff'), url('https://github.com/Delucx/Collab/blob/main/font/Noteworthy-Lt.woff'), format('woff');
+}
+
+.contactText {
+    display: contents;
+    font-size: 18px;
+}
+
+.footerText {
+    display: contents;
+    color: #6D6D6D;
+    text-align: center;
+    margin-top: 2em;
 }

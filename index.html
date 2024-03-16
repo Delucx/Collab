@@ -28,7 +28,7 @@
           <a class="text-decoration-none customBrown" data-toggle="tab" href="#menu1">about</a>
         </li>
         <li class="m-3">
-          <a class="text-decoration-none customBrown" data-toggle="tab" href="#menu2"><img
+          <a class="text-decoration-none customBrown" data-toggle="tab" href="#menu2"><img class=" w-100"
               src="assets\shopName.svg" /></a>
         </li>
         <li>
@@ -55,42 +55,110 @@
         <button class="nanumPenScript homeButton mt-3">Visit Shop</button>
       </div>
       <div class="col d-flex justify-content-center m-5">
-        <img class="w-50" src="assets\shopLogo.svg" />
+        <img class="w-auto" src="assets\shopLogo.svg" />
       </div>
     </div>
   </div>
 
   <div class="container-fluid surveyBackground">
-    <div class="row d-flex align-items-center">
-      <div class="col customMargin2">
+    <div class="row d-flex align-items-center align-content-center">
+      <div class="col d-flex customMargin2 justify-content-evenly">
         <div class="row">
           <div>
             <p class="modak monthlyMango1">Monthly</p>
           </div>
-          <div>
-            <p class="modak monthlyMango2">Mango<img src="assets\oneMango.svg"></p>
+          <div class=" d-flex">
+            <p class="modak monthlyMango2">Mango</p>
+            <img src="assets\oneMango.svg">
           </div>
           <div>
             <p class=" nanumPenScript surveyP">*Based from our February 2024 Survey</p>
           </div>
         </div>
       </div>
-      <div class="col customMargin3">
+      <div class="col d-flex customMargin3 justify-content-evenly">
         <div class="row p-5">
-          <div>
-            <img src="assets\star.svg" />
-          </div>
           <div class="d-flex justify-content-evenly">
-            <img class=" w-100" src="assets\foodPic1.svg" />
-            <img class=" w-100" src="assets\foodPic2.svg" />
-          </div>
-          <div class=" col d-flex justify-content-end">
-            <img src="assets\star.svg" />
+            <div>
+              <img src="assets\star.svg" />
+            </div>
+            <div class=" w-auto my-5 me-3">
+              <img class=" w-auto" src="assets\foodPic1.svg" />
+            </div>
+            <div class=" w-auto my-5 ms-3">
+              <img class=" w-auto" src="assets\foodPic2.svg" />
+            </div>
+            <div class=" col d-flex align-items-end">
+              <img src="assets\star.svg" />
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <div class="footerBackground">
+    <div class="container-fluid">
+      <div class=" row d-flex noteWorthy text-white">
+        <div class=" col-auto m-5 d-flex align-items-center">
+          <img class="w-auto" src="assets\shopName.svg" />
+        </div>
+        <div class=" col-auto m-5">
+          <p class="">
+            <a class="navBottom text-decoration-none">home</a>
+          </p>
+          <p>
+            <a class="navBottom text-decoration-none">about</a>
+          </p>
+          <p>
+            <a class="navBottom text-decoration-none">shop</a>
+          </p>
+          <p>
+            <a class="navBottom text-decoration-none">contact</a>
+          </p>
+        </div>
+        <div class=" col-auto m-5">
+          <div class=" h2">
+            <p>contact us</p>
+          </div>
+          <div>
+            <div class=" d-flex my-3 align-items-center w-100">
+              <img class="" src="assets\mailLogo.svg" />
+              <p class=" contactText">hello@mangroove.com</p>
+            </div>
+            <div class=" d-flex my-3">
+              <img src="assets\phoneLogo.svg" />
+              <p class=" contactText">(63)963-8293-947</p>
+            </div>
+            <div class=" d-flex my-3">
+              <img src="assets\locationLogo.svg" />
+              <p class=" contactText">123 Maginhawa St. Metro Manila</p>
+            </div>
+          </div>
+        </div>
+        <div class=" col-auto m-5">
+          <div class=" h2">
+            <p>follow us</p>
+          </div>
+          <div class="row">
+            <div class="col">
+              <img src="assets\facebookLogo.svg" />
+            </div>
+            <div class="col">
+              <img src="assets\twitterLogo.svg" />
+            </div>
+            <div class="col">
+              <img src="assets\instagramLogo.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footerText card-footer modal-footer">
+    <p>©2024 Mangroove. All Rights Reserved.</p>
+  </footer>
 
   <script src="js/bootstrap.min.js" async defer></script>
   <script src="js/jquery.min.js" async defer></script>
